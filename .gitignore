@@ -1,0 +1,24 @@
+# OS generated files #
+######################
+.COMPONENT_CACHED
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+src/Documentation/*
+src/docs/docset/*
+src/docs/docset-installed.txt
+src/aws-ios-sdk-*.zip
+
+# Patched code #
+######################
+*.bak
+
+# Stuff that can't be committed #
+######################
+credentials.json
+terraform.exe
